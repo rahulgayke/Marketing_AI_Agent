@@ -1,0 +1,19 @@
+{
+  "name": "ai-marketing-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:win": "nodemon --exec \"node src/server.js\"",
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:win": "jest --runInBand",
+    "lint": "eslint src/",
+    "format": "prettier --write src/",
+    "build": "tsc",
+    "clean": "if exist dist rmdir /s /q dist"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
