@@ -1,0 +1,35 @@
+# Python Integration
+fastapi 
+uvicorn 
+sqlalchemy 
+python-multipart
+Flask
+transformers
+torch                   # or accelerate for CPU
+smtplib                 # built-in, but kept here for clarity
+email-validator         # optional for validating emails
+
+# JWT Token Authentication
+PyJWT
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langserve
+langchain_chain
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Hugging Face Integration
+langchain-huggingface
+huggingface-hub
+
+# Enviroonment Variable Management
+python-dotenv
+
+# ML Utilities
+numpy
+scikit-learn
